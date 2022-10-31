@@ -26,3 +26,5 @@ Invoke-RestMethod https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1
 # Choco install
 #
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+Install-Module -Name Terminal-Icons -Repository PSGallery # comment if get an error
